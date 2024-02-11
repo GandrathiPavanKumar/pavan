@@ -1,0 +1,44 @@
+
+1:Dependencies Required for the project:
+------------------
+	rest-assured
+	json-path
+	json
+	gson
+	testng
+	scribejava-apis
+	json-schema-validator
+	xml-schema-validator
+
+	
+	
+2:http-requests
+--------------------
+main url: https://reqres.in/
+
+	get users:
+		https://reqres.in/api/users?page=2
+	
+	post:
+		https://reqres.in/api/users
+		
+		{
+	    "name": "morpheus",
+	    "job": "leader"
+		}
+		
+	put:
+		https://reqres.in/api/users/2
+		{
+	    "name": "morpheus",
+	    "job": "zion resident"
+		}
+	
+	delete:
+		https://reqres.in/api/users/userid
+		status code = 204
+	
+gerkin Keywords
+-----------------
+
+	
